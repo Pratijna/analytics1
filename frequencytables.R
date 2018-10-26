@@ -55,3 +55,8 @@ hist(x3)
 hist(x3, breaks=15, col=1:15)
 h=hist(x3)
 h
+hist(x3, freq=F)
+lines(density(x3))
+x4=rnorm(1000,60,5)
+hist(x4, freq=F)
+lines(density(x4))
