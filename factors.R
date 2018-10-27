@@ -19,3 +19,7 @@ likscaleOF
 barplot(table(likscaleF), col=1:4)
 barplot(table(likscaleOF), col= 1:4)
 
+
+names(mtcars)
+cyl, gear, am, vs
+
